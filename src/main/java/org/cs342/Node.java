@@ -1,3 +1,5 @@
+package org.cs342;
+
 import java.util.Arrays;
 
 /*

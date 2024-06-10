@@ -1,3 +1,5 @@
+package org.cs342;
+
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -7,8 +9,6 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.util.Duration;
 
 public class WelcomeScreenController implements Initializable {
@@ -26,7 +26,7 @@ public class WelcomeScreenController implements Initializable {
 	
 	private void newGame() {
 		try {
-			Parent newRoot = FXMLLoader.load(getClass().getResource("/FXML/GameScreen.fxml"));
+			Parent newRoot = FXMLLoader.load(getClass().getResource("/org/cs342/FXML/GameScreen.fxml"));
 			root.getScene().setRoot(newRoot);
 		} catch (IOException e) {
 			e.printStackTrace();

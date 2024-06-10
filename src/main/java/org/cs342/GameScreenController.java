@@ -1,3 +1,5 @@
+package org.cs342;
+
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Random;
@@ -30,7 +32,7 @@ public class GameScreenController implements Initializable {
 									{6, 7, 9, 11, 2, 0, 5, 3, 1, 8, 10, 15, 12, 4, 13, 14},
 									{4, 0, 3, 11, 1, 6, 10, 9, 2, 8, 14, 7, 12, 5, 13, 15},
 									{11, 14, 13, 12, 9, 1, 0, 5, 7, 15, 10, 8, 3, 6, 4, 2},
-									{7, 1, 13, 12, 4, 8, 0, 10, 11, 6, 14, 5, 3, 9, 15, 2}}; // preset puzzles that get chosen from at random when the user presses "New Game"
+									{7, 1, 13, 12, 4, 8, 0, 10, 11, 6, 14, 5, 3, 9, 15, 2}}; // preset puzzles that get chosen from at random when the user presses "New org.cs342.Game"
 	
 	@FXML
 	GridPane gameBoard;
