@@ -1,10 +1,9 @@
+package org.cs342;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.ArrayList;
 
-import org.cs342.DB_Solver2;
-import org.cs342.Game;
-import org.cs342.Node;
 import org.junit.jupiter.api.Test;
 
 class MyTest {
