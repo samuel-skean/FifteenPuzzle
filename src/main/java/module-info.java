@@ -4,6 +4,6 @@ module fifteenpuzzleapp {
     requires javafx.controls;
     requires javafx.fxml;
 
-    opens org.cs342 to javafx.fxml;
-    exports org.cs342;
+    opens skean.sam.cs342.fifteenpuzzleapp to javafx.fxml;
+    exports skean.sam.cs342.fifteenpuzzleapp;
 }

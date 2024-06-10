@@ -61,7 +61,7 @@
         <artifactId>javafx-maven-plugin</artifactId>
         <version>${javafx.maven.plugin.version}</version>
         <configuration>
-            <mainClass>org.cs342.FifteenPuzzleApp</mainClass>
+            <mainClass>skean.sam.cs342.fifteenpuzzleapp.FifteenPuzzleApp</mainClass>
         </configuration>
     </plugin>
     </plugins>

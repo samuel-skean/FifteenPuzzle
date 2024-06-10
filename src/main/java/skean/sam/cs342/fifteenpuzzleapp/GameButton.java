@@ -1,4 +1,4 @@
-package org.cs342;
+package skean.sam.cs342.fifteenpuzzleapp;
 
 import javafx.scene.control.Button;
 

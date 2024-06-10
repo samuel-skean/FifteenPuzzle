@@ -1,4 +1,4 @@
-package org.cs342;
+package skean.sam.cs342.fifteenpuzzleapp;
 
 import java.io.IOException;
 import java.net.URL;
@@ -26,7 +26,7 @@ public class WelcomeScreenController implements Initializable {
 	
 	private void newGame() {
 		try {
-			Parent newRoot = FXMLLoader.load(getClass().getResource("/org/cs342/FXML/GameScreen.fxml"));
+			Parent newRoot = FXMLLoader.load(getClass().getResource("/skean/sam/cs342/fifteenpuzzleapp/FXML/GameScreen.fxml"));
 			root.getScene().setRoot(newRoot);
 		} catch (IOException e) {
 			e.printStackTrace();
