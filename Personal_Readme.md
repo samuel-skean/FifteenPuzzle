@@ -1,0 +1,3 @@
+This information probably shouldn't matter to anyone else looking at this repository, and might not even matter to me!
+
+This is the solution that came from the folder named "Fall2021Project4_15Puzzle" in OneDrive. Alternative sources for the source were:  "Fall2021Project4_15Puzzle - Copy With TODOs and Testing Code", "Fall2021Project4_15Puzzle - Original Code", "Fall2021Project4_15Puzzle - Working, but with Blocking.zip", and "Fall2021Project4_15Puzzle.zip".
